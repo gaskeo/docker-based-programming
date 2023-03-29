@@ -1,4 +1,0 @@
-# INCLUDE fastapi/Dockerfile.fastapi-main
-
-
-# INCLUDE fastapi/Dockerfile.fastapi-run

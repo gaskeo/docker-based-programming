@@ -2,10 +2,10 @@ FROM nginx:stable-alpine
 
 EXPOSE 8000
 
-# INCLUDE install/Dockerfile.install-python
+# INCLUDE install/install-python.Dockerfile
 
 
-# INCLUDE install/Dockerfile.install-fastapi
+# INCLUDE install/install-fastapi.Dockerfile
 
 
-# INCLUDE fastapi/Dockerfile.fastapi-index
+# INCLUDE fastapi/fastapi-index.Dockerfile
